@@ -31,6 +31,10 @@ This API enables users to register, authenticate, and create/manage fundraising 
 
 ## 🚀 Quick Start Guide
 
+### Step-by-step setup
+
+
+
 ```bash
 # Clone the repository
 git clone https://github.com/TarekMo334455/django-crowdfund-api.git
@@ -49,8 +53,7 @@ python manage.py migrate
 
 # Run the development server
 python manage.py runserver
-
-
+```
 
 🔗 API Endpoints
 🔐 Authentication
@@ -71,6 +74,7 @@ PUT /api/projects/{id}/ — Update project (owner only)
 
 DELETE /api/projects/{id}/ — Delete project (owner only)
 
+
 🛠 Tech Stack
 Python 3.x
 
@@ -85,6 +89,7 @@ django-filter 23.5
 SQLite (default dev DB)
 
 📁 Project Structure
+
 django-crowdfund-api/
 ├── core/                   # Main app for projects and users
 │   ├── models.py           # Database models
@@ -97,9 +102,6 @@ django-crowdfund-api/
 ├── requirements.txt        # Dependencies
 ├── manage.py
 └── README.md
-
-
-
 🌱 Planned Enhancements
 🔐 Email activation during registration
 
